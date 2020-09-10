@@ -1004,6 +1004,17 @@ h4 {
 }
 
 @media (max-width: 767px) {
+
+
+
+    .header-title {
+       font-size: 2em;
+    }
+
+
+
+
+    
     .page-container {
         overflow-x: hidden;
         position: relative;
