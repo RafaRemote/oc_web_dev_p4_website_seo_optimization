@@ -39,21 +39,31 @@
 
 		<div class="page-container">
 			
-			<header class="bloc bgc-white l-bloc ">
-				<div class="container bloc-sm">
-
-					<nav class="navbar row">
-						<div class=" col col-lg-6 navbar-header">
-							<img src="img/logo.png" alt="logo de l'entreprise de webdesign La chouette agence Lyon"/>		
-							<div class="header-title">La chouette agence</div>
-						</div>
-					</nav>
+			<header>
+				<div class="bloc bgc-white l-bloc ">
+					<div class="container bloc-sm">
+						<nav class="navbar row">
+							<div class="navbar-header">
+								<div class="navbar-header" role="header" aria-label="navbar">
+									<img src="img/logo.png" alt="logo de l'entreprise de webdesign La chouette agence Lyon" title="logo La Chouette Agence"/>		
+									<div class="header-title">La chouette agence - Lyon</div>
+								</div>
+							</div>
+							<div class="collapse navbar-collapse navbar-1 special-dropdown-nav" role="navigation" aria-label="navbar" id="contact">
+								<ul class="site-navigation nav navbar-nav">
+									<li>
+										<a href="contact.html" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine">Contact</a>
+									</li>
+								</ul>
+							</div>
+						</nav>
+					</div>
 				</div>
 			</header>
 
 			<main>
 
-				<section title="presentation entreprise">
+				<section title="banner page accueil" role="banner" aria-label="banner page accueil">
 			
 					<div class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax">
 						<div class="container bloc-lg">
@@ -62,11 +72,12 @@
 									<div class="center-block image-resize-mode logo" alt="La chouette agence, logo entreprise"></div>
 									<h1 class="text-center hero-bloc-text tc-white visible espace">
 										La chouette agence <br />
-										agence de webdesign - Lyon
+										
 									</h1>
-									<div class="text-center">
-										<a href="contact.html" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" id="contact">Contact</a>
+									<div class="text-center hero-bloc-text tc-white visible">
+										votre agence de webdesign Lyonnaise
 									</div>
+									
 								</div>
 							</div>
 						</div>
@@ -74,7 +85,7 @@
 
 				</section>
 
-				<section title="services"> 
+				<section title="services" role="region" aria-label="services"> 
 			
 					<div class="bloc bgc-white l-bloc" id="bloc-2-services">
 
@@ -133,7 +144,7 @@
 				</section>
 
 				
-				<section title="opinion">
+				<section title="opinion" role="complementary" aria-label="opinion">
 
 					<div class="row voffset-lg voffset">
 						<div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
@@ -146,7 +157,7 @@
 
 				</section>
 
-				<section title="contact">
+				<section title="annonce" role="complementary" aria-label="annonce" >
 
 					<div class="bloc tc-white bgc-atomic-tangerine bg-presentation d-bloc bloc-bg-texture texture-paper b-parallax">
 						<div class="container bloc-lg">
@@ -165,7 +176,7 @@
 
 				</section>
 				
-				<section title="portfolio">
+				<section title="portfolio" role="img" aria-label="carrousel illustrations">
 					<div class="bloc bgc-white bg-lines-h2-bg bg-repeat l-bloc">
 						<div class="container bloc-lg">
 
@@ -217,7 +228,7 @@
 				</section>
 			
 
-				<section title="lien page contact">
+				<section title="lien page contact" role="complementary" aria-label="annonce">
 					<div class="bloc bgc-dark-slate-blue bg-banniere d-bloc bloc-bg-texture texture-paper">
 						<div class="container bloc-lg">
 							<div class="row">
@@ -235,7 +246,7 @@
 			</main>	
 		
 			
-			<footer class="bloc bgc-atomic-tangerine d-bloc">
+			<footer class="bloc bgc-atomic-tangerine d-bloc" role="footer" aria-label="bas de page">
 				<div class="container bloc-sm">
 					<div class="row">
 						<div class="col-sm-12">
