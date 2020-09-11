@@ -33,6 +33,10 @@ address {
     font-weight: bold;
 }
 
+footer a {
+    font-weight: bold;
+}
+
 address span {
     font-family: 'king', Arial, Helvetica, sans-serif;
     font-size: 2em;
@@ -853,6 +857,7 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    text-align: center;
 }
 
 .portfolio-row {
@@ -1005,16 +1010,10 @@ h4 {
 
 @media (max-width: 767px) {
 
-
-
     .header-title {
        font-size: 2em;
     }
 
-
-
-
-    
     .page-container {
         overflow-x: hidden;
         position: relative;
@@ -1035,28 +1034,27 @@ h4 {
     }
     .navbar .nav {
         padding-top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         border-top: 1px solid rgba(0, 0, 0, .2);
+        border-bottom: 1px solid rgba(0, 0, 0, .1);
         float: none!important;
+        background: rgba(0, 0, 0, .05);
     }
     .navbar.row {
         margin-left: 0;
         margin-right: 0;
     }
-    .site-navigation {
-        position: inherit;
-        transform: none;
-        -webkit-transform: none;
-        -ms-transform: none;
-    }
+   
     .nav > li {
         margin-top: 0;
-        border-bottom: 1px solid rgba(0, 0, 0, .1);
-        background: rgba(0, 0, 0, .05);
-        text-align: left;
+        text-align: center;
         padding-left: 15px;
-        width: 100%;
+        width: 50%;
+        margin: auto;
     }
-    .nav > li:hover {
+    .nav > a:hover {
         background: rgba(0, 0, 0, .08);
     }
     .dropdown .dropdown a .caret {
@@ -1136,10 +1134,11 @@ h4 {
         margin-top: 30px;
     }
     form {
-        padding: 5px;
+        padding: 5em;
     }
     .close-lightbox {
         display: inline-block;
+        margin: auto;
     }
     .blocsapp-device-iphone5 {
         background-size: 216px 425px;
@@ -1153,15 +1152,18 @@ h4 {
     }
 }
 
-@media (max-width: 400px) {
+
+@media (max-width: 767px) {
+
     .bloc {
         padding-left: 0;
         padding-right: 0;
     }
-}
 
-@media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
     }
+
+    a > img {
+        margin: auto !important;
 }
