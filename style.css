@@ -11,6 +11,7 @@
 
 *:focus {
     box-shadow: 0 0 15px 15px yellow !important;
+   
 
 }
 
@@ -63,6 +64,10 @@ address span {
 
 .text-visible {
     font-size: 1.25em !important;
+}
+
+.padding {
+    padding: 5px;
 }
 
 .bold {
@@ -444,10 +449,7 @@ a:hover {
     text-align: inherit;
 }
 
-.nav > li a:hover,
-.nav > li a:focus {
-    background: transparent;
-}
+
 
 .navbar-toggle {
     margin: 10px 10px 0 0;
@@ -568,8 +570,8 @@ nav .caret {
 .btn-d,
 .btn-d:hover,
 .btn-d:focus {
-    color: #FFF;
-    background: rgba(0, 0, 0, .3);
+  
+    background: rgb(0, 0, 0) !important;
 }
 
 button {
@@ -1166,4 +1168,6 @@ h4 {
 
     a > img {
         margin: auto !important;
+}
+
 }
