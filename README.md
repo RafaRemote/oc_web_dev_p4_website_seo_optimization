@@ -1,5 +1,13 @@
-# Openclassrooms Parcours Développeur web - Projet Numéro 4 - Optimisez un site web existant.
+# OpenClassrooms / Web Developer Path
 
-Code source du site web "La Chouette Agence", version optimisée SEO et accessibilité.
+## Project number 4: Optimize an existing website
 
-Site amélioré visible à l'adresse suivante : https://rafafacode.github.io/la_chouette_agence_nouvelle_version/
+skills:
+
+- optimize the SEO of a website
+- write maintainable HTML and CSS
+- use best practices in web development
+- optimize website size and speed
+- ensure website accessibility
+
+website address: https://rafaremote.github.io/oc_web_dev_p4_website_seo_optimization/
